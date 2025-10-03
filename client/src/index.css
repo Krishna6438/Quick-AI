@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+@theme{
+  --color-primary: #5044E5;
+}
+
+.reset-tw, .reset-tw * {
+  all: revert !important;
+}
+
+
+/* In Clerk, .cl-drawerRoot is one of the auto-generated class names they use to style their prebuilt UI components (like sign-in/sign-up modals, user profile panels, etc.). */
+
+
+.cl-drawerRoot{
+  z-index: 10;
+}
